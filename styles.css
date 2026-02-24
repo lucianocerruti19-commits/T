@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d;
+  color: white;
+  text-align: center;
+}
+
+.banner {
+  background: black;
+  padding: 35px;
+  border-bottom: 4px solid gold;
+}
+
+.logo {
+  font-size: 72px;
+  letter-spacing: 6px;
+  color: gold;
+  margin: 0;
+}
+
+.paneles {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paneles button {
+  background: linear-gradient(45deg, gold, #d4af37);
+  border: none;
+  padding: 18px;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.paneles button:hover {
+  transform: translateY(-3px);
+}
